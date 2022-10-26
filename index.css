@@ -47,6 +47,9 @@ button a {
   text-decoration: none;
 }
 
+#sidemenu {
+  margin-right: 10px;
+}
 nav ul li {
   display: inline-block;
   list-style: none;
