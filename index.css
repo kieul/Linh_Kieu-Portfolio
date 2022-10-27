@@ -260,15 +260,18 @@ form .btn2 {
   cursor: pointer;
 }
 
+/* ---------copyright--------- */
 .copyright {
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: #8dc6ff;
+  background: white;
   font-weight: 300;
   margin-top: 10px;
 }
-
+#by {
+  text-decoration: none;
+}
 /* ---------responsive - small screen--------- */
 nav .fas {
   display: none;
