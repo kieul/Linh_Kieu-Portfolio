@@ -329,4 +329,8 @@ nav .fas {
   .contact-right {
     flex-basis: 100%;
   }
+  .btn.btn2,
+  .btn.btn2.about {
+    margin: 25px 10px 5px 1px;
+  }
 }
