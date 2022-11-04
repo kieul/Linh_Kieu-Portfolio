@@ -90,8 +90,11 @@ p {
 
 .work:hover .layer {
   height: 100%;
+  top: auto;
 }
-
+.work-list.buttons {
+  margin-top: 0px;
+}
 .btn {
   display: block;
   margin: 50px auto;
@@ -103,6 +106,12 @@ p {
   text-decoration: none;
   color: #73b6f8;
   transition: background 0.5s;
+}
+.btn.btn2 {
+  display: inline-block;
+  background: #73b6f8;
+  color: white;
+  font-size: 15px;
 }
 
 .btn:hover {
