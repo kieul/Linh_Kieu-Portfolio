@@ -14,11 +14,11 @@
   </head>
   <body>
     <nav>
-        <a href="#header"><img src="images/Linh Kieu.png" class="logo" /></a>
+        <a href="index.html"><img src="images/Linh Kieu.png" class="logo" /></a>
         <ul id="sidemenu">
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#contact" >Contact</a></li>
           <li>
             <a href="/images/CV Linh Kieu eng.pdf" target="_blank">Resume</a>
           </li>
@@ -99,22 +99,22 @@
         <h1 class="box-title">Swift Application</h1>
         <div class="work-box">
           <div class="box app">
-            <h3>Weather Web Application</h3>
+            <h3>Destini</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <img src="images/work-1.png" />
           </div>
           <div class="box app">
-            <h3>Weather Web Application</h3>
+            <h3>Egg Timer</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <img src="images/work-2.png" />
           </div>
           <div class="box app">
-            <h3>Weather Web Application</h3>
+            <h3>Quizzler</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <img src="images/work-3.png" />
+            <div class="flex"><img src="images/work-3.png" /><img src="images/work-3.png" /></div>
           </div>
           <div class="box app">
-            <h3>Weather Web Application</h3>
+            <h3>Xylophone</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <img src="images/work-1.png" />
         </div>
@@ -135,5 +135,15 @@
               ></a>
             </div>
     </div>
+     <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-120px";
+      }
+    </script>
   </body>
 </html>

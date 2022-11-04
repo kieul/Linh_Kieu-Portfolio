@@ -231,3 +231,41 @@ nav ul li a:hover::after {
   color: #545454;
   transform: translateY(-5px);
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+nav .fas {
+  display: none;
+}
+.fa-bars {
+  color: #545454;
+}
+@media only screen and (max-width: 650px) {
+  nav .fas {
+    display: block;
+    font-size: 20px;
+    color: #545454;
+  }
+  nav ul {
+    background: #d3e7fb;
+    position: fixed;
+    top: 0;
+    right: -120px;
+    width: 120px;
+    height: 100vh;
+    padding-top: 40px;
+    z-index: 2;
+    transition: right 0.4s;
+  }
+  nav ul li {
+    display: block;
+    margin-top: 25px;
+  }
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+}
