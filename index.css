@@ -196,6 +196,9 @@ a {
   background: #73b6f8;
   color: white;
 }
+.btn.about {
+  margin: 25px auto;
+}
 /* ---------contact me--------- */
 .contact-left {
   flex-basis: 35%;
