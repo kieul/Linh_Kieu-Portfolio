@@ -72,14 +72,19 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
-.work-list,
-.work-box {
+.work-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
 
+.work-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
 .fa-solid {
   color: #8dc6ff;
 }
