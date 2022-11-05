@@ -207,7 +207,7 @@ nav ul li a:hover::after {
   border-radius: 10px;
 }
 
-.box video {
+#gif {
   margin-top: 25px;
   padding-top: 10px;
   width: 100%;
