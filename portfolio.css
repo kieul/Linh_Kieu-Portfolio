@@ -81,7 +81,7 @@ nav ul li a:hover::after {
 
 .work-box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 40px;
   margin-top: 40px;
 }
@@ -112,12 +112,11 @@ nav ul li a:hover::after {
 }
 .layer {
   width: 100%;
-  height: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.3), #73b6f8b0);
   border-radius: 10px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  height: 0;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -143,7 +142,7 @@ nav ul li a:hover::after {
 }
 
 .work:hover .layer {
-  height: 100%;
+  bottom: 100%;
   top: auto;
 }
 .work-list.buttons {
